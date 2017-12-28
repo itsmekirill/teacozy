@@ -17,6 +17,7 @@ header {
   border-bottom: 1px solid seashell;
   height: 69px;
   background-color: black;
+  z-index: 5;
 }
 .navigation ul {
   display: flex;
@@ -38,6 +39,8 @@ header ul li a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 1200px;
+  margin: 0px auto 0px auto;
 }
 #mission {
   background-image: url("../images/img-mission-background.jpg");
