@@ -16,6 +16,7 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   height: 69px;
+  background-color: black;
 }
 .navigation ul {
   display: flex;
@@ -30,4 +31,83 @@ header ul li a {
 }
 .logo {
   padding-left: 10px;
+}
+.mainBody {
+  padding-top: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mission h2, #mission h4 {
+  background-color: black;
+  margin: 0px 0px;
+  padding: 10px 0px;
+}
+.totm {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+}
+.featuredImage {
+  height: 200px;
+  width: 300px;
+}
+#totm1stRow, #totm2ndRow {
+  display: flex;
+  justify-content: center
+}
+#FallBerryBlitz, #SpicedRumTea, #MyrtleAveTea {
+  padding-right: 25px;
+}
+#SpicedRumTea, #SeasonalDonuts, #BedfordBizarreTea {
+  padding-left: 25px;
+}
+.totmitem h4 {
+  margin-top: 10px;
+}
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.locationContainer {
+  display: flex;
+  justify-content: center;
+}
+.location {
+  opacity: 1;
+  background-color: black;
+  width: 300px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#locations h2 {
+  margin: 0 0;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+#TeaCozyContact {
+  height: 200px;
+}
+#copyright {
+  text-align: left;
+  margin-left: 20px;
 }
