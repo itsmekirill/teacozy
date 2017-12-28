@@ -1,0 +1,33 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+}
+.navigation ul li {
+  padding: 0px 10px;
+}
+header ul li a {
+  color: inherit;
+  text-decoration: underline;
+}
+.logo {
+  padding-left: 10px;
+}
